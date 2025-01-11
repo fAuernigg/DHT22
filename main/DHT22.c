@@ -18,6 +18,7 @@
 ---------------------------------------------------------------------------------*/
 
 #define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
+#define ets_delay_us esp_rom_delay_us
 
 #include <stdio.h>
 #include "esp_log.h"
